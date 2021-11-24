@@ -4,8 +4,8 @@ from matplotlib import pyplot as plt
 
 image0 = cv2.imread('D:\PCB\code\image.bmp')
 image1 = cv2.imread('D:\PCB\code\image_c.bmp')
-b0, g0 ,r0 = cv2.split(image0)
-b1, g1 ,r1 = cv2.split(image1)
+b0, g0, r0 = cv2.split(image0)
+b1, g1, r1 = cv2.split(image1)
 res0 = cv2.pyrDown(g0)
 res1 = cv2.pyrDown(g1)
 
