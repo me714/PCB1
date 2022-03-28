@@ -1,11 +1,8 @@
 import cv2
-from code.position_correction import function_Alignment
-from code.cv_show import cv_show
-from code.Ostu import otsu
-import numpy as np
+from code.picture_stitching.position_correction import function_Alignment
 
-image0 = cv2.imread('D:\\Projects\\calming\\1\\1\\o.bmp')
-image1 = cv2.imread('D:\\Projects\\calming\\1\\1\\o_a.bmp')
+image0 = cv2.imread(r'D:\Projects\calming_lipstick\image\1\b.bmp')
+image1 = cv2.imread(r'D:\Projects\calming_lipstick\image\1\n_a.bmp')
 
 # scale = 0.2
 # print(image0.shape)
